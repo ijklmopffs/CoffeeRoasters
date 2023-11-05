@@ -4,3 +4,9 @@
   text-align: center;
   font-family: "Fraunces", serif;
 }
+
+.no-tap-highlight {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

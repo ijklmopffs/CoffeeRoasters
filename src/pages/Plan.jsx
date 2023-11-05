@@ -358,11 +358,14 @@ export default function Plan() {
             </div>
 
             {icon ? (
-              <div className="mt-10 text-start flex flex-col md:flex-row gap-5 md:gap-0 justify-between cursor-pointer">
+              <div
+                className="mt-10 text-start flex flex-col md:flex-row gap-5 
+              md:gap-0 justify-between cursor-pointer no-tap-highlight"
+              >
                 {options.map((option, index) => (
                   <div
                     key={option.title}
-                    className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                    className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                       selected === index ? "bg-primary text-[#fefcf7]" : ""
                     }`}
                     onClick={() => handleOptionClick(index)}
@@ -396,12 +399,12 @@ export default function Plan() {
             {iconOne ? (
               <div
                 className="mt-10 text-start flex flex-col md:flex-row 
-              gap-5 md:gap-0 justify-between cursor-pointer"
+              gap-5 md:gap-0 justify-between cursor-pointer no-tap-highlight"
               >
                 {optionsTwo.map((optionTwo, index) => (
                   <div
                     key={optionTwo.title}
-                    className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                    className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                       selectedTwo === index ? "bg-primary text-[#fefcf7]" : ""
                     }`}
                     onClick={() => handleOptionClickTwo(index)}
@@ -435,12 +438,12 @@ export default function Plan() {
             {iconTwo ? (
               <div
                 className="mt-10 text-start flex flex-col md:flex-row 
-              gap-5 md:gap-0 justify-between cursor-pointer"
+              gap-5 md:gap-0 justify-between cursor-pointer no-tap-highlight"
               >
                 {optionsThree.map((optionThree, index) => (
                   <div
                     key={optionThree.title}
-                    className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                    className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                       selectedThree === index ? "bg-primary text-[#fefcf7]" : ""
                     }`}
                     onClick={() => handleOptionClickThree(index)}
@@ -478,12 +481,12 @@ export default function Plan() {
               {iconThree ? (
                 <div
                   className="mt-10 text-start flex flex-col md:flex-row 
-              gap-5 md:gap-0 justify-between cursor-pointer"
+              gap-5 md:gap-0 justify-between cursor-pointer no-tap-highlight"
                 >
                   {optionsFour.map((optionFour, index) => (
                     <div
                       key={optionFour.title}
-                      className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                      className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                         selectedFour === index
                           ? "bg-primary text-[#fefcf7]"
                           : ""
@@ -521,12 +524,12 @@ export default function Plan() {
               {iconThree ? (
                 <div
                   className="mt-10 text-start flex flex-col md:flex-row 
-              gap-5 md:gap-0 justify-between cursor-pointer"
+              gap-5 md:gap-0 justify-between cursor-pointer no-tap-highlight"
                 >
                   {optionsFour.map((optionFour, index) => (
                     <div
                       key={optionFour.title}
-                      className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                      className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                         selectedFour === index
                           ? "bg-primary text-[#fefcf7]"
                           : ""
@@ -566,12 +569,12 @@ export default function Plan() {
             {iconFour ? (
               <div
                 className="mt-10 text-start flex flex-col md:flex-row 
-              gap-5 md:gap-0 justify-between cursor-pointer"
+              gap-5 md:gap-0 justify-between cursor-pointer no-tap-highlight"
               >
                 {optionsFive.map((optionFive, index) => (
                   <div
                     key={optionFive.title}
-                    className={`bg-[#f4f1eb] p-4 rounded-md hover:bg-[#fdd6ba] ${
+                    className={`bg-[#f4f1eb] p-4 rounded-md lg:hover:bg-[#fdd6ba] ${
                       selectedFive === index ? "bg-primary text-[#fefcf7]" : ""
                     }`}
                     onClick={() => handleOptionClickFive(index)}
