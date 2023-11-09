@@ -7,7 +7,7 @@ export default {
         barlow: ["Barlow", "serif"],
       },
       backgroundImage: () => ({
-        "plan-desktop": "url('./assets/plan/desktop/bg-order-summary.png')",
+        "plan-desktop": "url('/assets/plan/desktop/bg-order-summary.png')",
         "plan-mobile": "url('/assets/plan/mobile/bg-order-summary.png')",
         "plan-modal": "url('/assets/plan/desktop/bg-steps.png')",
       }),
