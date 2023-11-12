@@ -31,8 +31,8 @@ export default function Home() {
           />
           <img src={heroMobile} alt="" className="rounded-lg md:hidden" />
         </div>
-        <div className="absolute top-52 text-white md:text-start p-4">
-          <h1 className="font-black text-7xl my-5">
+        <div className="absolute top-40 md:top-52 text-white md:text-start p-4">
+          <h1 className="font-black text-5xl md:text-7xl my-5">
             Great coffee <br /> made simple.
           </h1>
           <p className="md:w-96 font-barlow text-[#fefcf7] my-5">
@@ -123,7 +123,7 @@ export default function Home() {
               <h3 className="font-black text-2xl text-[#fefcf7] my-10">
                 Best quality
               </h3>
-              <p className="w-96 lg:w-64 font-barlow text-[#fefcf7]">
+              <p className="w-80 lg:w-64 font-barlow text-[#fefcf7]">
                 Discover an endless variety of the world’s best artisan coffee
                 from each of our roasters.
               </p>
@@ -136,20 +136,20 @@ export default function Home() {
               <h3 className="font-black text-2xl text-[#fefcf7] my-10">
                 Exclusive benefits
               </h3>
-              <p className="w-96 lg:w-64 font-barlow text-[#fefcf7]">
+              <p className="w-80 lg:w-64 font-barlow text-[#fefcf7]">
                 Special offers and swag when you subscribe, including 30% off
                 your first shipment.
               </p>
             </div>
           </div>
 
-          <div className="bg-[#0e8784] gap-10 lg:gap-0 w-fit flex flex-col md:flex-row lg:flex-col items-center p-12 rounded-md">
+          <div className="bg-[#0e8784] gap-10 lg:gap-0 w-fit flex flex-col md:flex-row lg:flex-col items-center p-8 rounded-md">
             <img src={truck} alt="" />
             <div>
               <h3 className="font-black text-2xl text-[#fefcf7] my-10">
                 Free shipping
               </h3>
-              <p className="w-96 lg:w-52 font-barlow text-[#fefcf7]">
+              <p className="w-80 lg:w-52 font-barlow text-[#fefcf7]">
                 We cover the cost and coffee is delivered fast. Peak freshness:
                 guaranteed.
               </p>

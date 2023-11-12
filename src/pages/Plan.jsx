@@ -176,8 +176,8 @@ export default function Plan() {
           />
           <img src={heroMobile} alt="" className="rounded-md md:hidden" />
         </div>
-        <div className="absolute top-52 p-4 md:text-start">
-          <h1 className="text-7xl font-black text-[#fefcf7] my-10">
+        <div className="absolute top-40 md:top-52 p-4 md:text-start">
+          <h1 className="text-5xl md:text-7xl font-black text-[#fefcf7] my-10">
             Create plan
           </h1>
           <p className="md:w-96 text-[#fefcf7]/50 font-barlow">

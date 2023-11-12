@@ -32,9 +32,9 @@ export default function About() {
           />
           <img src={heroMobile} alt="" className="rounded-md md:hidden" />
         </div>
-        <div className="absolute top-52 p-4">
+        <div className="absolute top-40 md:top-52 p-4">
           <h1 className="text-[#fefcf7] font-black text-4xl my-5">About Us</h1>
-          <p className="font-barlow text-[#fefcf7] md:w-96">
+          <p className="font-barlow text-[#fefcf7] md:w-96 text-sm">
             Coffeeroasters began its journey of exotic discovery in 1999,
             highlighting stories of coffee from around the world. We have since
             been dedicated to bring the perfect cup - from bean to brew - in

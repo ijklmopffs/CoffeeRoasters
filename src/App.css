@@ -3,6 +3,7 @@
   margin: 0 auto;
   text-align: center;
   font-family: "Fraunces", serif;
+  overflow: hidden;
 }
 
 .no-tap-highlight {
