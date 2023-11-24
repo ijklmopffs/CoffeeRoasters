@@ -15,7 +15,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <main className="max-w-[105rem] mx-auto bg-[#fefcf7]/50">
+    <main className="max-w-[105rem] mx-auto">
       <Navbar />
       <section className="p-4 relative">
         <div>

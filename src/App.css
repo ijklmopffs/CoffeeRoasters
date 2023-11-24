@@ -11,3 +11,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+body {
+  background-color: #fefcf780;
+}
