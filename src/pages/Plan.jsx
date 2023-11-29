@@ -1,3 +1,5 @@
+// This is the file to be reviewed. Coding style and logic application are the main points to be focused on. Could there have been a better way to write the code generally? Just want feedback on the coding style, and if there was generally a better way to handle the login in this file
+
 import { useState } from "react";
 import close from "../../assets/shared/mobile/icon-close.svg";
 import hero from "../../assets/plan/desktop/image-hero-blackcup.jpg";
@@ -755,6 +757,7 @@ export default function Plan() {
                 selection if something is off. Subscription discount codes can
                 also be redeemed at the checkout.
               </p>
+{/*               General logic for the pricing model. Could the pricing model have been written in a better way? */}
               <div className="flex items-center justify-between p-8">
                 <div className="text-3xl font-black text-[#333d4b]">
                   {optionsThree[selectedThree].title === "250g" &&
